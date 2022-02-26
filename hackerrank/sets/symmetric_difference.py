@@ -1,0 +1,11 @@
+A = int(input())
+List_a = input()
+B = int(input())
+List_b = input()
+lis = List_a.split()
+a_set = set(map(int, lis))
+lis = List_b.split()
+b_set = set(map(int, lis))
+s = sorted((a_set.difference(b_set)).union(b_set.difference(a_set)))
+for i in s:
+    print(i)
