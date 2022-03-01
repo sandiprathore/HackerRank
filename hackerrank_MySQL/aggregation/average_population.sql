@@ -1,0 +1,1 @@
+SElECT FLOOR(AVG(population)) FROM CITY ;
